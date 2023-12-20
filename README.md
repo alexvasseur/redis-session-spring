@@ -11,3 +11,4 @@ can also run locally in InteliiJ as you prefer - update application.properties t
 The session ID `rename` will trigger when user is authenticated and sign-on again, or when timeout (30min default) is reached and user sign on again.
 
 The rename comamnd is not compatible with Redis cluster (irrelevent of oss or Enterprise)
+https://github.com/spring-projects/spring-session/issues/1646
